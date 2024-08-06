@@ -13,10 +13,6 @@ const Router = () => {
 			element: <Navbar />,
 			children: [
 				{
-					index: true,
-					element: <UserHome />
-				},
-				{
 					path: "appointment",
 					element: <Appointment />
 				},
